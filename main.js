@@ -3,6 +3,8 @@ import App from './App'
 import uView from "uview-ui"
 import store from "./store"
 
+import "./tools"
+
 import Tabs from "./components/tabs"
 import share from 'pages/Bdetail/share.vue'
 import Sbook from 'pages/sousuo/Sbook.vue'

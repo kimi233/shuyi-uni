@@ -274,7 +274,6 @@
 				flex: 1;
 				justify-content: center;
 				height: 100%;
-				padding: 12rpx 0;
 				@include vue-flex;
 				flex-direction: column;
 				align-items: center;
@@ -293,8 +292,8 @@
 					line-height: 28rpx;
 					position: absolute;
 					bottom: 14rpx;
-					left: 50%;
-					transform: translateX(-50%);
+          width: 100%;
+          text-align: center;
 				}
 			}
 

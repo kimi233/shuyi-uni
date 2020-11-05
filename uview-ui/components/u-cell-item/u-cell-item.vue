@@ -248,18 +248,8 @@ export default {
 	height: 48rpx;
 }
 
-.u-cell-border:after {
-	position: absolute; 
-	/* #ifndef APP-NVUE */
-	box-sizing: border-box;
-	content: ' ';
-	pointer-events: none;
-	border-bottom: 1px solid $u-border-color;
-	/* #endif */
-	right: 0;
-	left: 0;
-	top: 0;
-	transform: scaleY(0.5);
+.u-cell-border {
+border-bottom: 1px solid $u-border-color;
 }
 
 .u-cell-border {
